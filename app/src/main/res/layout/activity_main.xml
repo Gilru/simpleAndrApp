@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.myquizz.language.MainActivity">
+
+    <LinearLayout
+        style="@style/parentContainer"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/numbers"
+            style="@style/container.Inner"
+            android:background="#FD8E09">
+
+            <TextView
+                style="@style/boxTextStyling"
+                android:text="@string/numbers" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/members"
+            style="@style/container.Inner"
+            android:background="#379237">
+
+            <TextView
+                style="@style/boxTextStyling"
+                android:text="@string/family_members" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colors"
+            style="@style/container.Inner"
+            android:background="#8800A0">
+
+            <TextView
+                style="@style/boxTextStyling"
+                android:text="@string/colors" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phrases"
+            style="@style/container.Inner"
+            android:background="#16AFCA">
+
+            <TextView
+                style="@style/boxTextStyling"
+                android:text="@string/phrase" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
